@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>educational website - about</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png" alt=""></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>About us</h1>
+</section>
+    <!-------------------nav ending------------>
+
+
+    <!----------about us------>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Lorem ipsum dolor sit  adipisicing.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur consequuntur nobis ipsum quisquam.ipsum dolor sit amet consectetur adipisicing elit. Consectetur consequuntur nobis ipsum quisquam corporis. Delectus.</p>
+                <a class="hero-btn" href="">enroll now</a>
+            </div>
+            <div class="about-col">
+                <img src="image/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+<!----------foooter------->
+<section class="footer">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus hic optio corporis sed, <br> fugiat, doloribus ab consequuntur, ratione enim adipisci tempora! Voluptate reiciendis nobis iusto dicta atque
+        , illum, accusamus quae sequi aliquid eos dignissimos. Impedit libero vero doloremque vitae!</p>
+<div class="icons">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-twitter"></i>
+</div>
+<p>made with <i class="fa-solid fa-heart"></i> by easy tutorials</p>
+</section>
+
+    <script>
+        var navlinks = document.getElementById("nav-links");
+
+        function showmenu(){
+            navlinks.style.right="0";
+        }
+        function hidemenu(){
+            navlinks.style.right="-300px";
+        }
+    </script>
+</body>
+</html>
